@@ -67,7 +67,6 @@ export default function Menu() {
               <ul className="nav nav-treeview">
                 <li className="nav-item">
                   <a href="pages/layout/top-nav.html" className="nav-link">
-                    <i className="far fa-circle nav-icon" />
                     <p>Criar autorização de compra</p>
                   </a>
                 </li>
@@ -76,7 +75,31 @@ export default function Menu() {
                     href="pages/layout/top-nav-sidebar.html"
                     className="nav-link"
                   >
-                    <i className="far fa-circle nav-icon" />
+                    <p>Listar</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">
+                <i className="nav-icon fas fa-copy" />
+                <p>
+                  Referêrencia Multibanco
+                  <i className="fas fa-angle-left right" />
+                  <span className="badge badge-info right"></span>
+                </p>
+              </a>
+              <ul className="nav nav-treeview">
+                <li className="nav-item">
+                  <a href="pages/layout/top-nav.html" className="nav-link">
+                    <p>Criar autorização de compra</p>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="pages/layout/top-nav-sidebar.html"
+                    className="nav-link"
+                  >
                     <p>Listar</p>
                   </a>
                 </li>
