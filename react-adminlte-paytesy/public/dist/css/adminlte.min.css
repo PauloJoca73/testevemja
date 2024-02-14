@@ -37,3 +37,6 @@
 .sidebar {
     padding-top: 10px;   
 }
+.nav-sidebar .nav-link p {
+    font-size: 14px;
+  }
