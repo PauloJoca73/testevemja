@@ -39,10 +39,21 @@
 }
 .nav-sidebar .nav-link p {
     font-size: 14px;
-  }
+    padding-left: 8px;
+}
+.nav-link a {
+    margin-top: 8px;
+}
 [class*="sidebar-dark-"] {
     background-color: #000;
 }
 [class*="sidebar-dark"] .form-control-sidebar {
     background-color: #3f474e91;   
+}
+.nav-sidebar .nav-link > p > .right {
+    top: 1.0rem!important;
+}
+.nav-sidebar > .nav-item .nav-icon {
+    font-size: 0.9rem;
+    
 }

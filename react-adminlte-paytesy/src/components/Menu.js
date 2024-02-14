@@ -57,7 +57,7 @@ export default function Menu() {
 
             <li className="nav-item">
               <a href="#" className="nav-link">
-                <i className="nav-icon fas fa-copy" />
+                <i className="nav-icon ion-ios-keypad" />
                 <p>
                   Paytesy
                   <i className="fas fa-angle-left right" />
@@ -82,7 +82,7 @@ export default function Menu() {
             </li>
             <li className="nav-item">
               <a href="#" className="nav-link">
-                <i className="nav-icon fas fa-copy" />
+                <i className="nav-icon ion-social-usd" />
                 <p>
                   Referêrencia Multibanco
                   <i className="fas fa-angle-left right" />
