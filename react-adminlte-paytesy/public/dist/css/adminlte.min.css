@@ -40,3 +40,9 @@
 .nav-sidebar .nav-link p {
     font-size: 14px;
   }
+[class*="sidebar-dark-"] {
+    background-color: #000;
+}
+[class*="sidebar-dark"] .form-control-sidebar {
+    background-color: #3f474e91;   
+}
