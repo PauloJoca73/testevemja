@@ -7,9 +7,13 @@ export default function Menu() {
       <a href="index.html" className="brand-link">
         <img
           className="brand-link-logo"
-          src="https://paytesy.com/wp-content/uploads/2022/12/Pay-Tesy-Logo.svg"
+          src="dist/img/logo1.jpg"
+          width="43px"
+          height="46px"
         />
-        <span className="brand-text font-weight-light"></span>
+        <span className="brand-text font-weight-light">
+          <img src="dist/img/logo2.jpg" width="114px" height="46px" />
+        </span>
       </a>
       {/* Sidebar */}
       <div className="sidebar">
@@ -29,7 +33,7 @@ export default function Menu() {
           </div>
         </div>
          */}
-        {/* SidebarSearch Form */}
+        {/* SidebarSearch Form 
         <div className="form-inline">
           <div className="input-group" data-widget="sidebar-search">
             <input
@@ -45,6 +49,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
+        */}
         {/* Sidebar Menu */}
         <nav className="mt-2">
           <ul

@@ -28,11 +28,16 @@
 }
 .brand-link {
     background-color: #fff;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
+    text-align: left;
+    padding: 5px 10px 5px 14px;
+    
 }
 .brand-link-logo {
-    width: 150px;
+    width: 43px;
+    text-align: center;
+}
+.brand-link-logolong {
+    width: 43px;
 }
 .sidebar {
     padding-top: 10px;   
@@ -41,6 +46,7 @@
     font-size: 14px;
     padding-left: 8px;
 }
+
 .nav-link a {
     margin-top: 8px;
 }
@@ -54,11 +60,13 @@
     top: 1.0rem!important;
 }
 .nav-sidebar > .nav-item .nav-icon {
-    font-size: 0.9rem;    
+    font-size: 1.1rem;    
 }
 
 a.dropdown-item:hover {
     background-color: #0AABA6;
     color: #fff;
-/* this is for dropdown menu hover background and text color */
+}
+.nav-sidebar > .nav-item .nav-icon {
+    margin-left: 0.3rem;   
 }

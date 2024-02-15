@@ -3,13 +3,14 @@ import React from "react";
 export default function Header() {
   return (
     <nav className="main-header navbar navbar-expand navbar-white navbar-light">
-      {/* Hide Left navbar links 
+      {/* Hide Left navbar links */}
       <ul className="navbar-nav">
         <li className="nav-item">
           <a className="nav-link" data-widget="pushmenu" href="#" role="button">
             <i className="fas fa-bars" />
           </a>
         </li>
+        {/* Hide Left navbar links
         <li className="nav-item d-none d-sm-inline-block">
           <a href="index.html" className="nav-link">
             Home
@@ -20,8 +21,9 @@ export default function Header() {
             Contact
           </a>
         </li>
+         */}
       </ul>
-      */}
+
       {/* Right navbar links */}
       <ul className="navbar-nav ml-auto">
         {/* Hide Navbar Search 
