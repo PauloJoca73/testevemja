@@ -54,6 +54,11 @@
     top: 1.0rem!important;
 }
 .nav-sidebar > .nav-item .nav-icon {
-    font-size: 0.9rem;
-    
+    font-size: 0.9rem;    
+}
+
+a.dropdown-item:hover {
+    background-color: #0AABA6;
+    color: #fff;
+/* this is for dropdown menu hover background and text color */
 }
