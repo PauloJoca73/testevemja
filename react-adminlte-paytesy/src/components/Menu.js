@@ -71,7 +71,7 @@ export default function Menu() {
               </a>
               <ul className="nav nav-treeview">
                 <li className="nav-item">
-                  <a href="pages/layout/top-nav.html" className="nav-link">
+                  <a href="autori" className="nav-link">
                     <p>Criar autorização de compra</p>
                   </a>
                 </li>
@@ -96,7 +96,7 @@ export default function Menu() {
               </a>
               <ul className="nav nav-treeview">
                 <li className="nav-item">
-                  <a href="pages/layout/top-nav.html" className="nav-link">
+                  <a href="pages/layout/top-n" className="nav-link">
                     <p>Criar autorização de compra</p>
                   </a>
                 </li>
